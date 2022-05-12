@@ -1,0 +1,41 @@
+.closeX{
+cursor: pointer;
+font-size: xx-large;
+top:14rem;
+right: 3rem ;
+position: absolute;
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+}
+.closeX:hover{
+color: rgb(202, 202, 202);
+}
+.modal_card{
+    height:fit-content;
+    background-color: rgba(172, 172, 172, 0.418);
+    
+}
+.box{
+    background-color: rgb(172, 172, 172);
+    height: 300px;
+}
+
+@media (min-width: 1000px) {
+    .closeX {
+        width: fit-content;
+        cursor: pointer;
+        font-size: xx-large;
+        top:9rem;
+        right: 30rem;
+        position:absolute;
+        color: rgb(0, 0, 0);
+        transition: 0.3s;
+    }
+
+    .modal_card {
+        width: 30%;
+        height: fit-content;
+        background-color: rgba(172, 172, 172, 0.418);
+    }
+
+}
